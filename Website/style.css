@@ -1,0 +1,65 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+div.container {
+    background: aliceblue;
+    width: 80%;
+    margin: 60px auto 0 auto;
+    border-radius: 20px;
+}
+
+form {
+    background: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+}
+
+input {
+    appearance: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 6px;
+    font-size: 1.1em;
+}
+
+*/ label {
+    font-size: 0.6em;
+    color: darkgray;
+    padding-left: 16px;
+    text-transform: uppercase;
+}
+
+*/ input:focus {
+    background-color: beige;
+    color: red;
+}
+
+*/ button {
+    appearance: none;
+    border: 1px solid transparent;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color:
+        cornflowerblue;
+}
+
+*/ button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
